@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #080C14;
+    background-image: 
+      radial-gradient(ellipse 80% 50% at 50% -15%, rgba(59, 130, 246, 0.12), rgba(16, 185, 129, 0.04) 50%, transparent 80%);
+    background-attachment: fixed;
+    color: #F8FAFC;
+    min-height: 100vh;
+  }
+}
+
+/* Custom sleek scrollbar for fintech terminal tables */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080C14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A263D;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3B82F6;
+}
