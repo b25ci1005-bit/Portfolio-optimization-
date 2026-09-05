@@ -1,4 +1,4 @@
-# QuantDesk: Institutional Quantitative Portfolio Optimization & Live Paper Trading Platform
+# QuantDesk: Quantitative Portfolio Optimization
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
